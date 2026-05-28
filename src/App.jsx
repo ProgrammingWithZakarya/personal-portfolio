@@ -1,3 +1,4 @@
+import CaseStudies from './components/Case-Studies';
 import Header from './components/header';
 import HeroSection from './components/hero-section';
 import Testimonials from './components/Testimonials';
@@ -7,7 +8,8 @@ function App() {
     <div className="page">
       <Header />
       <HeroSection />
-      <Testimonials/>
+      <CaseStudies />
+      <Testimonials />
     </div>
   );
 }
