@@ -27,7 +27,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className="fixed inset-x-0 top-0 container mx-auto flex h-14 items-center gap-1 rounded-b-lg bg-[#1B1B1B] px-24 text-[#9C9C9C]">
+    <header className="fixed inset-x-0 top-0 z-50 container mx-auto flex h-14 items-center gap-1 rounded-b-lg bg-[#1B1B1B] px-24 text-[#9C9C9C]">
       {/* links */}
       <div className="flex grow items-center justify-start gap-17.5">
         {links.map((link) => (
