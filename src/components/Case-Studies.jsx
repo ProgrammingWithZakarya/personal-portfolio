@@ -8,7 +8,7 @@ export default function CaseStudies() {
         <p className="mt-4 flex h-16 w-142 gap-2.5 px-4 font-mono text-pretty text-[#9C9C9C]">
           Solving user & business problems since last 15+ years. Lorem ipsum dolor sit
           amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua.{' '}
+          dolore magna aliqua.
         </p>
       </header>
       <section className="odd:flex h-dvh py-14">
